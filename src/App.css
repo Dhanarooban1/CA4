@@ -1,0 +1,72 @@
+body{
+  font-family: 'Dhurjati', sans-serif;
+
+  font-size: large;
+}
+body.light {
+  background-color: white;
+  color: white;
+}
+
+body.dark {
+  background-color: black;
+  color: black;
+}
+
+img{
+  display: block;
+  margin:auto;
+ width: 70px;
+ height: 70px;
+}
+
+#Box{
+  transform: translate(0%, 30%);
+  height: 60vh;
+}
+.option-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3GIvw;
+  margin-top: 5%;
+ }  
+
+.displayGrid{
+text-align: center;
+border: 3px solid whitesmoke;
+border-radius: 10px;
+height: auto;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+ #ResultPage{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(0%,40%);
+ background-color: brown;
+ border-radius: 10px;
+ }
+
+ .Question_text{
+  display: flex;
+  justify-content: center;
+ }
+
+
+ #button{
+ transform: translate(60%,0%);
+ border-radius: 20px;
+ height: 40px;
+ align-items: center;
+ }
+
+ #buttons{
+  /* transform: translate(60%,0%); */
+  border-radius: 20px;
+  height: 40px;
+  align-items: center;
+
+ }
