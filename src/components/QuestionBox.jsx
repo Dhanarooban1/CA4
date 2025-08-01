@@ -1,8 +1,9 @@
-import React, { useState, createContext ,useEffect } from 'react';
+import  { useState, createContext ,useEffect } from 'react';
 import questions from './questions';
 import '../App.css';
 import logo from './Assets/science.png'
 const ThemeContext = createContext('light');
+
 export default function QuestionBox() {
   const [CurrentQus, SetQues] = useState(0);
   const [score, setScore] = useState(0);
